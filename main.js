@@ -28,7 +28,7 @@ const linkAction = () =>{
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*=========== SHADOW HEADER =========*/
-const scrollHeader = () =>{
+const shadowHeader = () =>{
     const header = document.getElementById('header')
     // Add a class if the bottom offset is greater than 50 of the 
     this.scrollY >= 50 ? header.classList.add('shadow-header')
@@ -37,7 +37,12 @@ const scrollHeader = () =>{
 window.addEventListener('scroll', shadowHeader)
 
 /*============== SWIPER FAVORITES =========*/
-
+const swiperFavorites = new Swiper('.favorites__swiper', {
+    loop: true,
+    grabCursor: true,
+    slidesPerView: 'auto',
+    centeredSlides: 'auto',
+})
 
 /*=========== SHOW SCROLL UP =========*/
 
