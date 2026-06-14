@@ -201,7 +201,9 @@ img {
 }
 
 /* Show menu */
-
+.show-menu{
+    left: 0;
+}
 
 /* Shadow header */
 
@@ -210,7 +212,9 @@ img {
 
 
 /*======== Home ==========*/
-
+.home__container{
+    padding-top: 1.5rem;
+}
 
 /*======= BUTTON =======*/
 
