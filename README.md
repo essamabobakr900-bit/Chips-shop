@@ -1,4 +1,5 @@
 <img width="946" height="517" alt="Screenshot 2026-06-16 015103" src="https://github.com/user-attachments/assets/1fa78923-7420-40f1-95b1-e31ab28a7818" />
+
 ## Chips Shop Website
 
 ## Overview
